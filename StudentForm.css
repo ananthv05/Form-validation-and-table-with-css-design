@@ -1,0 +1,125 @@
+
+        
+/*button[type=Add]:hover {    
+      background-color: red;    
+    }    
+    .showError{    
+      border-color: white !important;    
+      color: white !important;    
+      margin-bottom: 15px;    
+    }*/
+    button[type=edit] {
+width: 50px;
+background-color: yellow;
+    }
+    button[type=delete] {
+      width: 50px;
+      background-color: yellow;
+          }
+    
+  body{
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Jost', sans-serif;
+    background: linear-gradient(to bottom left, 	#FF00FF	, #00FFFF);
+  }
+
+  .head {
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    color: 	#000080;
+    justify-content: center;
+    margin-left: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  label{
+    color: black;
+    font-size: 1rem;
+    font-style: italic;
+    display: flex;
+    margin-left: 25px;
+    font-weight: bold;;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+  }
+  input{
+    width: 85%;
+    height: 20px;
+    background: white;
+    justify-content: center;
+    display: flex;
+    margin: 10px auto;
+    padding: 10px;
+    border: aqua;
+    border-bottom: 2px solid #ccc;
+    border-radius: 15px;
+  }
+  button[type=Add]{
+    width: 80%;
+    height: 35px;
+    margin: 5px auto;
+    margin-bottom: 25px;
+    justify-content: center;
+    display: block;
+    color: #fff;
+    background: linear-gradient(to right, 	#FF00FF	, #00FFFF);
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  #idbox{
+    background-color: #00FFFF;
+    color: black;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  #ibox{
+    background-color: #FF00FF;
+    color: white;
+    height: 20px;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: bold;
+  }
+.container {
+  background: white;
+  justify-content: center;
+  display: grid;
+  border-left: 10px solid #FF00FF;
+  border-bottom: 10px solid #FF00FF;
+  border-top: 10px solid #00FFFF;
+  border-right: 10px solid #00FFFF;
+  width: 55%;
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-top: 75px;
+}
+  #log {
+    color: white;
+  }
+
+  #box {
+    color: white;
+  }
+
+  .container11 {
+    width: 50%;
+    display: inline-flex;
+  }
+  .container12 {
+    width: 50%;
+    display: inline-flex;
+  }
+  ::placeholder {
+color: gray;
+  }
+  
